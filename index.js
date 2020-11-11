@@ -15,9 +15,9 @@ $('#passwordButton').click(function(){
   }).done(function (response) {
     console.log(response);
     if (response.status === true) {
-      window.location.href = "https://google.com";
+      window.location.href = "https://smart-door.onrender.com/welcome";
     } else {
-      window.location.href = "https://facebook.com";
+      window.location.href = "https://smart-door.onrender.com/denied";
     }
   });
 })
