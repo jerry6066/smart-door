@@ -15,8 +15,10 @@ $('#passwordButton').click(function(){
   }).done(function (response) {
     console.log(response);
     if (response.status === true) {
+      $(".welcome").text(response.message);
       window.location.href = "https://smart-door.onrender.com/welcome";
     } else {
+      $(".denied").text(response.message);
       window.location.href = "https://smart-door.onrender.com/denied";
     }
   });
