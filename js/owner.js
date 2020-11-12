@@ -1,12 +1,22 @@
 const url = "https://64hhto6qci.execute-api.us-east-1.amazonaws.com/testStage/add-visitor";
 
+/*
 $('.visitor-img').on('error',function() {
   $('.visitor-img').attr('src', 'https://visitor-image.s3.amazonaws.com/noPeople.jpg');
   $('input').prop('disabled', true);
   $('button').prop('disabled', true);
   console.log("error");
-});
+});*/
 
+$(document).ready(function(){
+ $("img").bind("error",function(){
+  // Replacing image source
+  $(this).attr("src",'https://visitor-image.s3.amazonaws.com/noPeople.jpg');
+  $('input').prop('disabled', true);
+  $('button').prop('disabled', true);
+  console.log("error");
+ });
+});
 
 $('#submitButton').click(function() {
   var data = {
