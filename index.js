@@ -21,6 +21,3 @@ $('#passwordButton').click(function(){
     }
   });
 })
-
-$('.welcome').text(window.location.search.split('?msg=')[1].replace('%20', ' '))
-$('.denied').text(window.location.search.split('?msg=')[1].replace('%20', ' '))
