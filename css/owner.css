@@ -1,0 +1,84 @@
+p {
+  font-size: 2rem;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+  font-size: 6rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 15%;
+}
+
+input {
+  width: 200px;
+  font-size: 1.5rem;
+  background-color: #e8ffff;
+  border-radius: 10px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.allow {
+  font-family: 'Dancing Script', cursive;
+}
+
+.input-block {
+  position: relative;
+  width: 600px;
+  margin-top: 10%;
+  height: 600px;
+  left: 50%;
+  margin-left: -300px;
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+.visitor-img {
+  width:480px;
+  height:270px;
+  position:relative;
+  top:30px;
+  left:50%;
+  margin-left:-240px;
+  padding-bottom: 30px;
+}
+
+
+.form-group {
+  height: 100px;
+  width: 400px;
+  position: relative;
+  left: 50%;
+  margin-left: -200px;
+}
+
+.buttons {
+  top: 30px;
+  width: 300px;
+  position: relative;
+  left: 50%;
+  margin-left: -150px;
+  text-align: center;
+
+}
+
+.denyButton {
+  width: 100px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  background-color: #e8ffff;
+  font-family: 'Architects Daughter', cursive;
+  margin-right: 30px;
+}
+
+.submitButton {
+  width: 100px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  background-color: #e8ffff;
+  font-family: 'Architects Daughter', cursive;
+  margin-left: 30px;
+}
