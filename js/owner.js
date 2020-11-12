@@ -4,6 +4,7 @@ $('.visitor-img').on('error',function() {
   $('.visitor-img').attr('src', 'https://visitor-image.s3.amazonaws.com/noPeople.jpg');
   $('input').prop('disabled', true);
   $('button').prop('disabled', true);
+  console.log("error");
 });
 
 
