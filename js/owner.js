@@ -18,11 +18,11 @@ $(document).ready(function() {
   }).done(function(response) {
     console.log(response);
     if (response.status === true) {
-      $('.visitor-img').attr('src', 'https://visitor-image.s3.amazonaws.com/new_visitor.jpeg');
+      $('.visitor-img').attr('src', 'https://smartdoor-usr.s3.amazonaws.com/new_visitor.jpg');
       $('input').prop('disabled', false);
       $('button').prop('disabled', false);
     } else {
-      $('.visitor-img').attr('src', 'https://visitor-image.s3.amazonaws.com/noPeople.jpg');
+      $('.visitor-img').attr('src', 'https://smartdoor-usr.s3.amazonaws.com/noPeople.jpg');
       $('input').prop('disabled', true);
       $('button').prop('disabled', true);
     }
