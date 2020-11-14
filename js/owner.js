@@ -30,7 +30,7 @@ $(document).ready(function() {
 });
 
 $('#submitButton').click(function() {
-  if ($('#nameInput').val() === "" || $('#phoneInput').val() === "") {
+  if ($('#nameInput').val() === "" || $('#phoneInput').val() === "" || $('#phoneInput').val().length() != 10) {
     alert("Please type in all the information.")
   } else {
     var data = {
